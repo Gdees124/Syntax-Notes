@@ -1,0 +1,15 @@
+pragma solidity ^0.8.2;
+
+//contract syntax
+contract Name{
+    //reserved variables
+
+    //ether, gwei, wei
+    1 ether = 1e18 wei 
+    1 ether = 1e9 gwei
+
+    //time units: seconds, minutes, hours, days, weeks
+    //always written in plural and cannot be used as variable names
+    1 hours = 60 minutes;
+
+}
