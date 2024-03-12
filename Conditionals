@@ -1,0 +1,27 @@
+pragma solidity ^0.8.2;
+
+//contract syntax
+contract Name{
+    //if statements
+    if (variable = value){
+        //execute this code
+    } else {
+        //execute this code
+    }
+
+    //checking the condition
+    while (variable >= 0) {
+        //execute this code
+    }
+
+    //do run this code until the condition is false
+    do {
+        //execute this code
+    } while (variable >= 0)
+
+    //for loop: runs the number of times that the condition in the parameters are set to
+    //ex:
+    for (uint i=0; i>=50; i++) {
+        //execute this code (this code will run 51 times for this example)
+    }
+}
