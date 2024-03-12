@@ -9,7 +9,7 @@ contract Name{
 
     uint c = a + b;
 
-    /*Logical operators: ! (not equal), && (this value AND this value), || (this value OR this value), 
+    /*Logical operators: ! (not equal), && (this value AND this value must be true), || (this value OR this value must be true), 
     == (equal), != (not equal)*/
     //ex:
     bool hasMoney = !false; //(not false)
