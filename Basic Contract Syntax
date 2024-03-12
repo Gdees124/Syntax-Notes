@@ -1,0 +1,27 @@
+pragma solidity ^0.8.2;
+
+//import
+import "filename"; 
+import * as symbolname from "filename";
+import {symbol1 as alias, symbol2} from "filename";
+
+
+//contract syntax
+contract Name{
+    //state variable
+    uint storeData;
+
+    //modifier is a conditional
+    modifier onlyData() {
+        require(
+            storeData >= 0);
+    }
+
+    //function
+    function set (uint x) public {
+        storeData = x;
+    }
+
+    //event
+    event Sent(address from, address to, uint storeData);
+}
