@@ -1,0 +1,25 @@
+pragma solidity ^0.8.2;
+
+//contract syntax
+contract Name{
+    //block (variables that are part of the blockchain)
+    block.number;
+    block.difficulty;
+    block.coinbase();
+    //etc
+
+    //comments 
+    /* can also be written like this and this way allows for
+    multiple lines */
+
+    //message
+    msg.variable or value;
+    msg.sender;
+    msg.data;
+    msg.value;
+    //etc
+
+    //transaction
+    tx.origin;
+    tx.gas;
+}
