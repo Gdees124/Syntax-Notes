@@ -1,0 +1,32 @@
+pragma solidity ^0.8.2;
+
+//contract syntax
+contract Name{
+    //string
+    string variablename = "value";
+
+    //integers
+    uint variablename = value;
+
+    //boolean
+    bool aTrueOrFalseValue = true or false;
+
+    //adrress
+    address walletAddress = thewalletaddress;
+
+    //arrays
+    string[] names;
+
+    //Struct to define
+    struct Name {
+        string value;
+        string value2;
+        uint value;
+    }
+
+    //enums
+    enum valueType {value or Struct 1, value or Struct 2};
+
+    //mappings
+    mapping(function => variable) public balances;
+}
