@@ -15,6 +15,7 @@ contract Name{
     modifier onlyData() {
         require(
             storeData >= 0);
+        _;
     }
 
     //function
