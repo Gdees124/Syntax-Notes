@@ -1,0 +1,23 @@
+pragma solidity ^0.8.2;
+
+//contract syntax
+contract Name{
+    //Arithmetic operators: +, -, *, /, %, ++ (increment), -- (decrement)
+    //ex:
+    uint a = 2;
+    uint b = 3;
+
+    uint c = a + b;
+
+    /*Logical operators: ! (not equal), && (this value AND this value), || (this value OR this value), 
+    == (equal), != (not equal)*/
+    //ex:
+    bool hasMoney = !false; //(not false)
+
+    /*Bitwise operators: & (Bitwise AND), | (Bitwise OR), ^ (Bitwise x AND or), ~ (Bitwise not), << (left shift),
+    >> (right shift) */
+    //Bitwise means you're working at a level that involves individual bits (the smallest units of data in a computing system)
+    //ex:
+    bytes1 contractValue = 0x02 | 0x01; 
+
+}
