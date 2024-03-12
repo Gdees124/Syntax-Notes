@@ -1,0 +1,10 @@
+pragma solidity ^0.8.2;
+
+//contract syntax
+contract Name{
+    function name (parameter _1, parameter _2) public 
+    returns (variable parameter1, variable parameter2) {
+        parameter1 = value;
+        parameter2 = value;
+    }
+}
